@@ -1,1 +1,31 @@
 /*  your css code here. If applicable */
+.container{
+    margin: 5px;
+}
+
+h1 span{
+    color: rgb(51, 147, 230);
+}
+
+h1{
+    text-align: center;
+    font-weight: 200;
+}
+
+input{
+    width: 90vw;
+    height: 23px;
+}
+
+#submit{
+    padding: 9px;
+    /* width: 84px; */
+    background-color: rgb(63, 63, 217);
+    color: white;
+	border:none;
+    border-radius: 5px;
+}
+
+.table{
+    display: none;
+}
