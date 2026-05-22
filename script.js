@@ -30,8 +30,4 @@ document.addEventListener('click',function(e){
     if(e.target.classList.contains('delete')){
         e.target.parentElement.parentElement.remove();
     }
-
-    if(bookList.children.length==0){
-        table.style.display='none';
-    }
 })
